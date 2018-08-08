@@ -1,0 +1,12 @@
+def ovwel_test():
+    li_v = ['a','e','i','o','u',"A","E","I","O","U"]    
+    ch = input('Enter the characater:\n')
+    cnt = 0
+    for ov in li_v:        
+        if ov==ch:
+            cnt=cnt+1
+    if cnt ==1:
+        print("True")
+    else:
+        print("False")
+        
