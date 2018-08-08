@@ -1,0 +1,13 @@
+def list_of_values():
+    size=int(input('Enter the size of the list'))
+    li = []
+    ln = []
+    for a in range(size):
+        wrd=input('Enter the values')
+        li.append(wrd)          
+        ln.append(len(wrd))
+    print('entered list :',li ,'\nsize of list elements', ln)
+
+         
+    
+        
