@@ -1,0 +1,14 @@
+      
+def tr_area(s,a,b,c):    
+    ar=float((s*(s-a)*(s-b)*(s-c))**0.5)
+    return ar
+
+def ar_tringle():
+    print("Enter sides of traingle")
+    a=int(input('First side:'))
+    b=int(input('second side:'))
+    c=int(input('Third side:'))
+    
+    s = float((a+b+c)/2)
+    tr_ar= float(tr_area(s,a,b,c))
+    print('Area of the traingle:',tr_ar)
