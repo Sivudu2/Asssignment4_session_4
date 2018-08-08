@@ -1,0 +1,9 @@
+def filter_long_words():
+    wrds=input('Enter the list of words seperated by comma:')
+    n= int(input('Enter the size of word:'))
+    l = len(wrds)
+    lp = wrds.split(",")
+    for a in lp:
+        if len(a) == n:
+            print(a)
+    
